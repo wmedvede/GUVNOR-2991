@@ -1,0 +1,47 @@
+
+<form id="288453311">
+<property name="name" value="Review-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="report_date" type="InputDate" id="511433215">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date (report)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="report/date"/>
+<property name="outputBinding" value="report/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="report_id" type="InputTextLong" id="1672913409">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (report)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="report/id"/>
+<property name="outputBinding" value="report/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="2" name="report_lines" bag-type="myteam.ReportLine" type="MultipleSubform" id="817428999">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lines (report)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="report/lines"/>
+<property name="outputBinding" value="report/lines"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="3" name="report_status" type="InputText" id="249532052">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (report)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="report/status"/>
+<property name="outputBinding" value="report/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="report_user" type="InputText" id="594428854">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;user (report)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="report/user"/>
+<property name="outputBinding" value="report/user"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="report" name="#E9E371" type="dataModelerEntry" outId="report" value="myteam.Report" id="report"/>
+</form>
